@@ -428,10 +428,7 @@ form .btn-enviar input {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
-    }
-
-    section.projetos .flex {
-        gap: 90px;
+        gap: 60px;
     }
 
 }
