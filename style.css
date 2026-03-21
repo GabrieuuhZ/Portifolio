@@ -6,6 +6,11 @@
     font-family: "Roboto Slab", serif;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo img{
     width: 120px;
     height: auto;
@@ -62,7 +67,7 @@ header a{
     color: rgb(46, 27, 221);
     text-decoration: none;
     display: inline-block;
-    transition: 0.3s;
+    transition: .2s;
 }
 
 header a:hover{
@@ -174,4 +179,68 @@ section.redes .flex{
 .redes .redes-box h3{
     font-size: 28px;
     margin: 15px 0;
+}
+
+/* style sobre */
+section.sobre{
+    padding: 80px 4%;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+    max-width: 650px;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #65297F;
+    display: block;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+
+
+.sobre .txt-sobre p{
+    margin: 25px 0;
+    text-align: justify;
+    font-size: 18px;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.img-sobre{
+    position: relative;
+    display: inline-block;
+}
+
+.img-sobre img{
+    position: relative;
+    z-index: 1;
+    width: 350px;
+    border-radius: 30px;
+    display: block;
+}
+
+.img-sobre::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background: #903cf7;
+    filter: blur(40px);
+    
+    z-index: 0;
+    border-radius: 40px;
+    opacity: 0.6;
 }
