@@ -350,7 +350,7 @@ form .btn-enviar input{
     transition: .2s;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1080px){
     /* geral */
     .flex{
         flex-direction: column;
