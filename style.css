@@ -365,8 +365,23 @@ form .btn-enviar input{
         line-height: 30px;
     }
 
+    /* cabeçalho */
 
     .menu-desktop, .Contato{
         display: none;
     }
+
+    /* topo site */
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;   
+    }
+    
+    .topo-do-site .foto img{
+        width: 100%;
+    }
+
 }
