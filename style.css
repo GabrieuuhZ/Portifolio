@@ -17,7 +17,6 @@ a {
 .logo img {
     width: 120px;
     height: auto;
-    transform: translateX(-30px);
 }
 
 body {
@@ -357,6 +356,18 @@ form .btn-enviar input {
 @media screen and (max-width: 1080px) {
 
     /* geral */
+
+    header>.interface {
+        justify-content: center;
+    }
+
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
     .flex {
         flex-direction: column;
     }
@@ -375,11 +386,8 @@ form .btn-enviar input {
         line-height: 30px;
     }
 
-    /* cabeçalho */
 
-    .logo img {
-        transform: translateX(0);
-    }
+    /* cabeçalho */
 
     .menu-desktop,
     .Contato {
@@ -409,11 +417,11 @@ form .btn-enviar input {
         padding: 40px 4%;
     }
 
-    section.redes .flex{
+    section.redes .flex {
         gap: 25px;
     }
 
-    .redes .redes-box{
+    .redes .redes-box {
         padding: 35px;
     }
 
