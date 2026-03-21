@@ -23,25 +23,25 @@
                     <img src="images/logo.png" alt="logo">
                 </a>
             </div>
-
+            
         <nav class="menu-desktop">
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Redes</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#redes">Redes</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
             </ul>
         </nav>
 
         <div class="Contato">
-            <a href="#">
+            <a href="#contato">
                 <button>Contato</button>
             </a>
         </div>
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section id="inicio" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
@@ -49,7 +49,7 @@
                         <p>Ciência da Computação <span>•</span> Cibersegurança <span>•</span> Desenvolvimento</p>
 
                         <div class="Contato">
-                            <a href="#">
+                            <a href="#contato">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -62,7 +62,7 @@
             </div>
         </section><!--Interface-->
 
-        <section class="redes">
+        <section id="redes" class="redes">
             <div class="interface">
                 <h2 class="titulo">REDES <span>SOCIAIS.</span></h2>
                 <div class="flex">
@@ -91,8 +91,9 @@
                 </div>
             </div>
         </section><!--redes sociais-->
-        <section class="sobre">
+        <section id="sobre" class="sobre">
             <div class="interface">
+                <h2 class="titulo">SOBRE <span>MIM.</span></h2>
                 <div class="flex">
                     <div class="img-sobre">
                         <img src="images/Sobre.png" alt="">
@@ -112,6 +113,41 @@
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--sobre-->
+
+        <section id="projetos" class="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <a href="https://github.com/GabrieuuhZ/Gerador-de-senha" target="_blank">
+                        <div class="img-proj" style="background-image: url(images/senha.png);">
+                            <div class="overlay">GERADOR DE SENHA</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/GabrieuuhZ/Calculadora" target="_blank">
+                        <div class="img-proj" style="background-image: url(images/calculadora.png);">
+                            <div class="overlay">CALCULADORA</div>
+                        </div>
+                    </a>
+                            
+                </div>             
+            </div>
+        </section><!--projetos-->
+
+        <section id="contato" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+
+                <form action="https://formspree.io/f/xzdjqepw" method="post">
+                    <input type="nome" name="nome" id="" placeholder="Seu Nome:" required>
+                    <input type="email" name="email" id="" placeholder="Seu Email:" required>
+                    <textarea name="" id="Mensagem" placeholder="Sua Mensagem" required></textarea>
+                    <div class="btn-enviar"> 
+                        <input type="submit" value="ENVIAR">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </form>
+            </div>
+        </section><!--contato-->
 
     </main>
     
