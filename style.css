@@ -439,9 +439,14 @@ form .btn-enviar input {
     }
 
     .sobre .txt-sobre h2 {
-        font-size: 34px;
-        line-height: 35px;
+        font-size: 28px;
+        line-height: 1.2;
         text-align: center;
+    }
+
+    .sobre .txt-sobre h2 span{
+        display: block;
+        margin-top: 5px;
     }
 
     .img-sobre img {
