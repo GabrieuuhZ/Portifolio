@@ -428,13 +428,13 @@ form .btn-enviar input {
     /* projetos */
     section.projetos {
         padding: 80px 8%;
+        gap: 60px;
     }
 
     .img-proj {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
-        gap: 60px;
     }
 
 }
