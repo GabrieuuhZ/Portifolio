@@ -157,6 +157,7 @@ section.topo-do-site .flex {
 section.redes {
     padding: 70px 4%;
     text-align: center;
+    box-shadow: 0 0 40px 10px #ffffff1a;
 }
 
 .redes .redes-box p {
@@ -194,6 +195,7 @@ section.redes .flex {
 /* style sobre */
 section.sobre {
     padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1a;
 }
 
 
@@ -401,7 +403,6 @@ form .btn-enviar input {
     /* redes */
     section.redes {
         padding: 40px 8%;
-        gap: 30px;
     }
 
     /* sobre */
