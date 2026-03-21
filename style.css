@@ -377,6 +377,10 @@ form .btn-enviar input {
 
     /* cabeçalho */
 
+    .logo img {
+        justify-content: center;
+    }
+
     .menu-desktop,
     .Contato {
         display: none;
