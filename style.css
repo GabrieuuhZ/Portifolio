@@ -368,8 +368,9 @@ form .btn-enviar input {
         line-height: 30px;
     }
 
-    h2.titulo{
-        font-size: 30px;
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
     }
 
     /* cabeçalho */
@@ -402,5 +403,35 @@ form .btn-enviar input {
         padding: 40px 8%;
     }
 
-    
+    /* sobre */
+
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /* projetos */
+    section.projetos {
+        padding: 80px 8%;
+    }
+
+    .img-proj {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.projetos .flex {
+        gap: 60px;
+    }
+
 }
