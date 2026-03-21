@@ -349,3 +349,24 @@ form .btn-enviar input{
     cursor: pointer;
     transition: .2s;
 }
+
+@media screen and (max-width: 1020px){
+    /* geral */
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+
+    .menu-desktop, .Contato{
+        display: none;
+    }
+}
