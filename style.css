@@ -406,15 +406,15 @@ form .btn-enviar input {
 
     /* redes */
     section.redes {
-        padding: 40px 8%;
+        padding: 40px 4%;
     }
 
-    section.redes .flex {
+    section.redes .flex{
         gap: 25px;
     }
 
-    .redes .redes-box {
-        padding: 35px 25px;
+    .redes .redes-box{
+        padding: 35px;
     }
 
     /* sobre */
@@ -436,20 +436,14 @@ form .btn-enviar input {
     /* projetos */
     section.projetos {
         padding: 80px 8%;
-    }
-
-    section.projetos .flex {
-        gap: 25px;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+        gap: 60px;
     }
 
     .img-proj {
         width: 100%;
-        max-width: 320px;
-        height: 420px;
+        max-width: 360px;
         margin: 0 auto;
+        margin-bottom: 40px;
     }
 
 }
