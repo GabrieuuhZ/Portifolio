@@ -132,7 +132,7 @@ section.topo-do-site .flex {
 
 .foto img {
     width: 320px; /*320px*/
-    height: 10px; /*auto*/
+    height: auto; /*auto*/
 }
 
 
