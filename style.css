@@ -131,8 +131,10 @@ section.topo-do-site .flex {
 }
 
 .foto img {
-    width: 320px; /*320px*/
-    height: auto; /*auto*/
+    width: 320px;
+    /*320px*/
+    height: auto;
+    /*auto*/
 }
 
 
@@ -237,7 +239,8 @@ section.sobre .flex {
 .img-sobre img {
     position: relative;
     z-index: 1;
-    width: 350px; /*350px*/
+    width: 350px;
+    /*350px*/
     border-radius: 30px;
     display: block;
 }
@@ -353,7 +356,7 @@ form .btn-enviar input {
     transition: .2s;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 768px) {
 
     /* geral */
 
@@ -395,7 +398,7 @@ form .btn-enviar input {
 
     /* topo site */
 
-    .topo-do-site .txt-topo-site p{
+    .topo-do-site .txt-topo-site p {
         text-align: center;
         font-size: 16px;
         line-height: 1.6;
@@ -416,7 +419,9 @@ form .btn-enviar input {
     }
 
     .topo-do-site .foto img {
-        width: 100%;
+        max-width: 85%;
+        margin: 0 auto;
+        display: block;
     }
 
     /* redes */
@@ -435,7 +440,7 @@ form .btn-enviar input {
     /* sobre */
 
     section.sobre {
-        padding: 80px 8%;
+        padding: 40px 10%;
     }
 
     .sobre .txt-sobre h2 {
@@ -444,13 +449,18 @@ form .btn-enviar input {
         text-align: center;
     }
 
-    .sobre .txt-sobre h2 span{
+    .sobre .txt-sobre h2 span {
         display: block;
         margin-top: 5px;
+        margin: 0 auto;
     }
 
     .img-sobre img {
-        width: 100%;
+        display: none;
+    }
+
+    .img-sobre::before {
+        display: none;
     }
 
     /* projetos */
